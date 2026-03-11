@@ -57,16 +57,11 @@ Socket programming finds applications in various domains, including web developm
 ##SERVER
 ```
 import socket
-
-# Create socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-# Bind socket to IP and port
 host = '127.0.0.1'
 port = 12345
-server_socket.bind((host, port))
-
-# Listen for connections
+server_socket.bind((host, po
 server_socket.listen(1)
 print("Server is waiting for connection...")
 
