@@ -80,6 +80,9 @@ conn.send(message.encode())
 # Close connection
 conn.close()
 server_socket.close()
+
+<img width="1600" height="300" alt="image" src="https://github.com/user-attachments/assets/fc4fe88b-8203-4be6-8cd2-27878371bba4" />
+
 ```
 ##CILENT
 ```
@@ -103,10 +106,12 @@ print("Server says:", data)
 
 # Close socket
 client_socket.close()
+
+<img width="1483" height="247" alt="image" src="https://github.com/user-attachments/assets/677b80d4-304b-4974-935f-985ff5d8fba0" />
+
 ```
 
-##OUTPUT
-<img width="1510" height="1007" alt="image" src="https://github.com/user-attachments/assets/26932542-8fcc-48c3-8b7a-0ea60933fc06" />
+
 
 
 
